@@ -1,0 +1,7 @@
+OrderedDict in Python: Theory and Examples
+The OrderedDict class in Python is part of the collections module. It is a dictionary subclass that remembers the order in which its contents are added. This can be particularly useful for tasks where the order of items is important.
+
+Key Features of OrderedDict:
+Preserves Order: Remembers the order of insertion.
+Methods: Supports methods like move_to_end and popitem which are specific to OrderedDict.
+Compatibility: Can be used in place of a regular dictionary for most applications.

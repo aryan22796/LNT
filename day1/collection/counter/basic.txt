@@ -1,0 +1,8 @@
+Counter in Python: Theory and Examples
+The Counter class in Python is part of the collections module. It is a subclass of the dictionary object and is used to count hashable objects. Essentially, Counter is a specialized dictionary for counting items.
+
+Key Features of Counter:
+Initialization: Can be initialized with a sequence, dictionary, or another Counter object.
+Elements Method: Returns an iterator over elements repeating each as many times as its count.
+Most Common Method: Returns a list of the n most common elements and their counts from the most common to the least.
+Arithmetic and Set Operations: Supports addition, subtraction, intersection, and union.

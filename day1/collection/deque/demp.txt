@@ -1,0 +1,9 @@
+Key Operations:
+
+append(x): Add x to the right end.
+appendleft(x): Add x to the left end.
+pop(): Remove and return an element from the right end.
+popleft(): Remove and return an element from the left end.
+extend(iterable): Extend the right end by appending elements from the iterable.
+extendleft(iterable): Extend the left end by appending elements from the iterable (in reverse order).
+rotate(n): Rotate the deque n steps to the right. If n is negative, rotate to the left.

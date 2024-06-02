@@ -1,0 +1,8 @@
+
+defaultdict is a subclass of the built-in dict class in Python.
+ It is part of the collections module and provides a default value for a nonexistent key.
+  When accessing a key that doesn't exist in the dictionary, instead of raising a KeyError, 
+  a default value is provided, and the key is automatically added to the dictionary with this default value.
+
+The defaultdict requires a factory function to specify the 
+default value for nonexistent keys. This factory function is called without arguments to produce the default value.

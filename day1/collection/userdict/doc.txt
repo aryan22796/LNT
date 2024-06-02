@@ -1,0 +1,10 @@
+The UserDict class in Python is a part of the collections module, which provides a dictionary-like class for subclassing and is useful when you need to extend or modify the behavior of dictionaries.
+
+Theory
+The UserDict class acts as a wrapper around the standard dictionary, allowing you to create dictionary-like objects that can be customized by subclassing. Here are some key points:
+
+Inheritance: UserDict is a base class for creating a custom dictionary. It is a simpler way to create a custom dictionary by overriding its methods without affecting the original dictionary implementation.
+Customization: By subclassing UserDict, you can override dictionary methods such as __getitem__, __setitem__, __delitem__, and others to modify their behavior.
+Compatibility: Since it is a wrapper around the built-in dictionary, it provides all standard dictionary methods and behaves similarly.
+Attribute Access: The actual dictionary is stored in the data attribute, which can be accessed or modified directly if needed.
+Example 1: Basic Usage

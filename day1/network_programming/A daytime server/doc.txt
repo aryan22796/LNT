@@ -1,0 +1,11 @@
+A daytime server is a simple network service that listens for incoming connections on a specified port and responds by sending the current date and time to the client. It operates according to the Daytime Protocol (RFC 867), which specifies that the server must respond with the current date and time in a human-readable ASCII format upon receiving a connection request.
+
+Here's the basic theory behind a daytime server:
+
+Listening for Connections: The server creates a socket and binds it to a specific port on the host machine. It then listens for incoming connections from clients.
+
+Accepting Connections: When a client initiates a connection, the server accepts the incoming connection request and establishes a connection with the client.
+
+Sending Date and Time: After the connection is established, the server retrieves the current date and time from the system clock and sends it to the client in a predefined format.
+
+Closing the Connection: Once the date and time are sent, the server closes the connection with the client.
